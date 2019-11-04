@@ -2,17 +2,17 @@
 *:focus { outline: none !important; }
 
 html {
-	background: #f0f0f0;
-	height: auto;
+	
+    background: linear-gradient(to bottom, white, skyblue);
+
+    /* 방향 = to bottom, to right, to left, to top */
+
+    height: auto;
+    
 }
 
-/* 배경 지정 */
 body {
-	background: linear-gradient(to bottom, white, skyblue);
-	/* 방향 = to bottom, to right, to left, to top */
-
-	height: auto;
-
+	background: transparent;
 }
 
 a,
@@ -508,10 +508,11 @@ a {
 
 #article-list #article-list-menu>.btn.best {
 
-    border-radius: 15px;
+    border-radius: 0px;
+    
+    font-weight: bold;
 
 }
-
 
 
 /* 설정 버튼 */
@@ -520,7 +521,9 @@ a {
 
 #article-list #article-list-menu>.btn.cog {
 
-    border-radius: 15px;
+    border-radius: 0px;
+    
+    font-weight: bold;
 
 }
 
@@ -532,7 +535,9 @@ a {
 
 #article-list #article-list-menu>.btn.del {
 
-    border-radius: 15px;
+    border-radius: 0px;
+    
+    font-weight: bold;
 
 }
 
@@ -540,19 +545,18 @@ a {
 
 /* 글 쓰기 버튼 */
 
-
-
-#article-list #article-list-menu>.btn.write {
-
-    border-radius: 15px;
-
+#article-list #article-list-menu > .btn.write {
+	
+    border-radius: 0px;
+    
+    font-weight: bold;
+    
 }
-
 
 
 .btn-primary {
 
-    background-color: #BE81F7; /* 글 쓰기 버튼 배경 색 */
+    background-color: skyblue; /* 글 쓰기 버튼 배경 색 */
 
     border-color: #; /* 글 쓰기 버튼 배경 색 */
 
