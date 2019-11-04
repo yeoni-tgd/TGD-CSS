@@ -599,7 +599,7 @@ span.a-badge i.fa.fa-star {
 
 /* 하트 두근두근 효과 주기 */
 
-/*
+
 small.favo i.fa.fa-heart {
 
     animation: heartbeat 1s infinite;
@@ -622,4 +622,3 @@ small.favo i.fa.fa-heart {
     100% { transform: scale(1); }
 
 }
-*/
