@@ -21,31 +21,6 @@ a:focus {
 	color: #f0f0f0;
 }
 
-/* 로고
-
-header .row>div:nth-child(1)>a {
-
-    display: block;
-
-    width: 200px;
-
-    height: 50px;
-
-    background: url() no-repeat; url(로고 경로 입력)
-
-    background-size: auto 50px;
-
-}
-
-
-
-header .row>div:nth-child(1)>a>img {
-
-  display: none;
-
-}
-*/
-
 
 /* 검색창 */
 
@@ -75,16 +50,14 @@ header #right-search-form>#right-search-btn {
 /* 배너 */
 
 
-/*
 header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 
     border-radius: 15px;
 
 }
-*/
+
 
 /* 광고 배너 */
-
 
 
 header #header-bar>.row {
@@ -97,7 +70,6 @@ header #header-bar>.row {
 
 
 /* 광고 배너 광고 뱃지 */
-
 
 
 header #header-bar #header-top-notice strong.notice-badge {
@@ -144,8 +116,8 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 #main .menu-wrapper > a {
 	
-    display: block;
-    background: #fff;
+  display: block;
+  background: #fff;
 	padding: 6px 2px;
 	text-decoration: none;
 	color:#313131;
@@ -165,19 +137,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 
-
-/* 좌측 배너 하단
-
-
-
-#main .menu-wrapper a:nth-last-child(1) {
-
-    border-radius: 0px 0px 15px 15px;
-
-}
-
-
-*/
 
 /* 메인 배너 */
 
@@ -203,34 +162,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 #board-info #viewers-area {
 
     color: #FFFFFF; /* 접속자 수 글씨 색 */
-
-}
-
-
-
-#board-info #viewers-area #viewers:before {
-
-    content: "";    /* 숫자 앞에 들어갈 문구 */
-
-        /* ex) content: "트수 "; */
-
-        /* 출력 시 : 트수 n */
-
-    cursor: text;
-
-}
-
-
-
-#board-info #viewers-area #viewers:after {
-
-    content: "";    /* 숫자 뒤에 들어갈 문구 */
-
-        /* ex) content: "명 접속중"; */
-
-        /* 출력시 : n명 접속중 */
-
-    cursor: text;
 
 }
 
@@ -616,4 +547,34 @@ small.favo i.fa.fa-heart {
 
     100% { transform: scale(1); }
 
+}
+
+
+
+/* dropdown transition */
+
+.dropdown.open .dropdown-menu,
+.input-group-btn.open .dropdown-menu {
+  opacity: unset;
+  transform: unset;
+  border: 1px solid #A9D0F5;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0,0,0,.3);
+}
+.dropdown .dropdown-menu,
+.input-group-btn .dropdown-menu {
+  display: block !important;
+  opacity: 0;
+  transform: scale(0);
+  transform-origin: top;
+  transition: all 0.3s cubic-bezier(0.2, 1.5, 0, 1);
+  padding: 8px 0 3px 0px;
+}
+.dropdown-menu>li>a {
+  transition: .1s;
+}
+.dropdown-menu>li>a:hover {
+  background: transparent;
+  transform: scaleX(1.04);
+  transition: .1s;
 }
