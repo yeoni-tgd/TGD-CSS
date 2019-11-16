@@ -18,6 +18,19 @@
 }
 */
 
+@font-face {
+
+    font-family: 'BRRA_R';      /* 배스킨 라빈스 글꼴 */
+
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRRA_R.woff') format('woff');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+
 
 html {
 	
@@ -227,14 +240,24 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 
-/* 즐찾, 소개, 채널, 스케줄, 클립 버튼들 색 변경 */
 
+/* 즐찾, 소개, 채널, 스케줄, 클립 버튼들 색 변경 */
 
 #board-info #board-info-bottom a {
 
-  color: #151515;
+    color: #4078b1;
+
+    font-weight: 300;
+
+    font-family: 'BRRA_R';
+
+    font-size: 14px;
+
+    margin: .1em;
 
 }
+
+
 
 /* 카테고리 쪽 맨 우측 공지 가리기 모양 둥글게 및 위치 조정 */
 
