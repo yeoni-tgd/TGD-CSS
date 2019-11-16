@@ -220,6 +220,25 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 
+
+/* 즐찾, 소개, 채널, 스케줄, 클립 버튼들 색 변경 */
+
+#board-info #board-info-bottom a {
+
+    color: #4078b1;
+
+    font-weight: 400;
+
+    font-family: 'BRRA_R';
+
+    font-size: 14px;
+
+    margin: .1em;
+
+}
+
+
+
 /* 게시판 이름 마진 주기 */
 
 
@@ -239,23 +258,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 }
 
-
-
-/* 즐찾, 소개, 채널, 스케줄, 클립 버튼들 색 변경 */
-
-#board-info #board-info-bottom a {
-
-    color: #4078b1;
-
-    font-weight: 400;
-
-    font-family: 'BRRA_R';
-
-    font-size: 14px;
-
-    margin: .1em;
-
-}
 
 
 
