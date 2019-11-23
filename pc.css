@@ -154,37 +154,23 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 /* 좌측 배너 */
 
-#main .menu-wrapper>.header {
-
-    border-radius: 10px 10px 0 0;
-
-    background: #A9D0F5;
-
-}
-
-#main .menu-wrapper a:nth-last-child(1) {
-
-    border-radius: 0px 0px 10px 10px;
-
-}
-
-#main .menu-wrapper > a {
-	
-  display: block;
-
-	padding: 6px 2px;
-
-	text-decoration: none;
-	
-}
-
 #main .menu-wrapper {
 
-  border-color: #A9D0F5;
-  
+    border: 1px solid #A9D0F5; /* 좌측 배너 테두리 색 */
+
+    border-top: none !important;
+
 }
 
+/* 좌측 배너 헤더 */
 
+#main .menu-wrapper>.header {
+
+    background: #A9D0F5; /* 좌측 배너 제목 배경 색 */
+
+    border-radius: 15px 15px 0 0;
+
+}
 
 /* 좌측 배너 빈 공간 */
 
@@ -193,6 +179,15 @@ header #header-bar #header-menu-right.col-xs-2 {
     background: none;
 
 }
+
+/* 좌측 배너 하단 */
+
+#main .menu-wrapper a:nth-last-child(1) {
+
+    border-radius: 0px 0px 15px 15px;
+
+}
+
 
 
 
