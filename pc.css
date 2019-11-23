@@ -158,7 +158,7 @@ header #header-bar #header-menu-right.col-xs-2 {
 
     border-radius: 10px 10px 0 0;
 
-    background: #FFFFFF;
+    background: #A9D0F5;
 
 }
 
@@ -176,6 +176,12 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 	text-decoration: none;
 	
+}
+
+#main .menu-wrapper {
+
+  border-color: #A9D0F5;
+  
 }
 
 
