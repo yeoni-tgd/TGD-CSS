@@ -188,7 +188,7 @@ header #header-bar #header-menu-right.col-xs-2 {
 #board-info #score-area {
 	
 	display: none;
-  
+
 }
 
 #board-info #viewers-area {
@@ -334,6 +334,16 @@ header #header-bar #header-menu-right.col-xs-2 {
     border-right: 0px;
     
 }
+
+/* 하트 색깔 변경하기 */
+
+#article-list>.article-list-row>.item>.list-title>small.favo {
+
+    color: #FFCAD5;
+
+}
+
+
 
 /* 집 색깔 진하게 만들기 */
 
