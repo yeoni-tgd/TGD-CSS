@@ -187,13 +187,14 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 #board-info #score-area {
 	
-	color: #FFFFFF;
+	display: none;
+  
 }
 
 #board-info #viewers-area {
-
-    color: #FFFFFF; /* 접속자 수 글씨 색 */
-
+  
+  display: none;
+  
 }
 
 
@@ -542,13 +543,6 @@ a {
 img[src="https://static-cdn.jtvnw.net/chat-badges/mod.png"] {
 
     display: none;
-
-}
-
-
-#article-list>.article-list-row>.item>.list-title>small.favo {
-
-    color: red;
 
 }
 
