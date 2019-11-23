@@ -168,7 +168,7 @@ header #header-bar #header-menu-right.col-xs-2 {
 
     background: #A9D0F5; /* 좌측 배너 제목 배경 색 */
 
-    border-radius: 6px 6px 0 0;
+    border-radius: 5px 5px 0 0;
 
 }
 
@@ -184,7 +184,7 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 #main .menu-wrapper a:nth-last-child(1) {
 
-    border-radius: 0px 0px 6px 6px;
+    border-radius: 0px 0px 5px 5px;
 
 }
 
