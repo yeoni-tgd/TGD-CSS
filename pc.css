@@ -80,7 +80,8 @@ header .row>div:nth-child(1)>a img {
 
 header #header-bar {
 
-    margin-top: 0.15em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 
 }
 
