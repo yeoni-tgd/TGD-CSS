@@ -113,7 +113,7 @@ header #right-search-form>#right-search-btn {
 
 header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 
-    border-radius: 15px;
+    border-radius: 10px;
 
 }
 
@@ -154,21 +154,22 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 /* 좌측 배너 */
 
+#main .menu-wrapper>.header {
 
+    border-radius: 10px 10px 0 0;
 
-#main .menu-wrapper {
+}
 
-    border: 3px solid #A9D0F5; /* 좌측 메뉴 테두리 색 */
+#main .menu-wrapper a:nth-last-child(1) {
 
-    border-radius: 1px;
+    border-radius: 0px 0px 10px 10px;
 
 }
 
 
 
+
 /* 좌측 배너 헤더 */
-
-
 
 #main .menu-wrapper>.header {
 
@@ -180,10 +181,15 @@ header #header-bar #header-menu-right.col-xs-2 {
 #main .menu-wrapper > a {
 	
   display: block;
+
   background: #fff;
+
 	padding: 6px 2px;
+
 	text-decoration: none;
+
 	color:#313131;
+
 	border-bottom: 1px	solid	#f1f1f1;
 	
 }
