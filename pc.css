@@ -156,9 +156,9 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 #main .menu-wrapper {
 
-    border: 2px solid #A9D0F5; /* 좌측 배너 테두리 색 */
+    border: 3px solid #A9D0F5; /* 좌측 배너 테두리 색 */
 
-    border-top: none !important;
+    /*border-top: none !important;*/
 
 }
 
