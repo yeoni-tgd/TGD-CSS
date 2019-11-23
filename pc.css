@@ -158,6 +158,8 @@ header #header-bar #header-menu-right.col-xs-2 {
 
     border-radius: 10px 10px 0 0;
 
+    background: #A9D0F5;
+
 }
 
 #main .menu-wrapper a:nth-last-child(1) {
@@ -166,18 +168,7 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 }
 
-
-
-
-/* 좌측 배너 헤더 */
-
-#main .menu-wrapper>.header {
-
-    background: #A9D0F5; /* 좌측 배너 제목 배경 색 */
-
-}
-
-
+/*
 #main .menu-wrapper > a {
 	
   display: block;
@@ -193,11 +184,11 @@ header #header-bar #header-menu-right.col-xs-2 {
 	border-bottom: 1px	solid	#f1f1f1;
 	
 }
+*/
+
 
 
 /* 좌측 배너 빈 공간 */
-
-
 
 #main .menu-wrapper .spacer {
 
@@ -208,8 +199,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 메인 배너 */
-
-
 
 #main #main-content>div.frame {
 
