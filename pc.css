@@ -58,15 +58,15 @@ a:focus {
 
 header .row > div:first-child > a {
 
-    background-repeat: no-repeat;
-
     display: block;
 
     width: 200px;
 
     height: 50px;
 
-    background-image: url(https://1.bp.blogspot.com/-JAKRI5eqV_M/Xdkdbbnr_bI/AAAAAAAAXcg/zXGeChKy2TMc14mgukhavf9wNhE0oN8iwCLcBGAsYHQ/s320/logo_pc.png);
+    background: url(https://1.bp.blogspot.com/-JAKRI5eqV_M/Xdkdbbnr_bI/AAAAAAAAXcg/zXGeChKy2TMc14mgukhavf9wNhE0oN8iwCLcBGAsYHQ/s320/logo_pc.png) no-repeat; 
+
+    background-size: auto 50px;
 
 }
 
