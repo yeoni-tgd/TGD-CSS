@@ -3,35 +3,6 @@
 
 
 
-/* 리디 바탕체 */
-/*
-@font-face {
-
-    font-family: 'RIDIBatang';
-
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
-
-    font-weight: normal;
-
-    font-style: normal;
-
-}
-*/
-
-@font-face {
-
-    font-family: 'BRRA_R';      /* 배스킨 라빈스 글꼴 */
-
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRRA_R.woff') format('woff');
-
-    font-weight: normal;
-
-    font-style: normal;
-
-}
-
-
-
 html {
 	
     background: linear-gradient(to bottom, white, skyblue);
@@ -272,7 +243,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 /* 즐겨찾기 , 소개, 채널, 스케줄, 클립 버튼들 마진 */
 
-
 #board-info #board-info-bottom {
 
     margin-left: 85px;
@@ -289,13 +259,20 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 }
 
+/* 게시글들 간격 조절하는 부분 */
+
+#article-list > .article-list-row > .item > .list-title {
+
+    padding: 10px 0 10px 0;
+
+    vertical-align: middle;
+
+}
 
 /* 카테고리 쪽 맨 우측 공지 가리기 모양 둥글게 및 위치 조정 */
 
-
 #article-list #article-option-area>#article-option-area-toggle-btn {
 	
-	/* border-radius: 25px; */
 	background-color: #FFFFFF;
 	margin-left: -50px;
 	margin-top: 5px;
