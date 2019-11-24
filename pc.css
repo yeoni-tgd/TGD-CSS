@@ -277,7 +277,7 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 }
 
-/* 게시글들 간격 조절하는 부분
+/* 게시글들 간격 조절하는 부분 */
 
 #article-list > .article-list-row > .item > .list-title {
 
@@ -288,7 +288,6 @@ header #header-bar #header-menu-right.col-xs-2 {
     font-size: 14px;
 
 }
-*/
 
 /* 카테고리 쪽 맨 우측 공지 가리기 모양 둥글게 및 위치 조정 */
 
