@@ -276,7 +276,9 @@ header #header-bar #header-menu-right.col-xs-2 {
 #article-list #article-option-area>#article-option-area-toggle-btn {
 	
 	background-color: #FFFFFF;
+
 	margin-left: -50px;
+
 	margin-top: 5px;
 
 }
@@ -324,10 +326,6 @@ header #header-bar #header-menu-right.col-xs-2 {
     padding: 14px 18px;
     
     background: #d4eeff55;
-    
-    text-decoration: none;
-    
-    font-size: 12px;
     
     font-weight: bold;
     
