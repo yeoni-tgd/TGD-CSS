@@ -263,7 +263,7 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 #article-list > .article-list-row > .item > .list-title {
 
-    padding: 10px 0 10px 0;
+    padding: 10px 0 10px 0 !important;
 
     vertical-align: middle;
 
