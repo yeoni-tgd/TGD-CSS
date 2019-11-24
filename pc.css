@@ -32,7 +32,9 @@ html {
 }
 
 body {
+
 	background: transparent;
+
 }
 
 a,
@@ -237,11 +239,13 @@ header #header-bar #header-menu-right.col-xs-2 {
 
     font-weight: 400;
 
-    font-family: 'BRRA_R';
+    font-family: 'BRBA_B';
 
-    font-size: 14px;
+    font-size: 13px;
 
     margin: .1em;
+
+    font-weight: bold;
 
 }
 
