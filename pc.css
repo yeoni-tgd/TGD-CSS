@@ -259,6 +259,20 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 
+/* 스트리머 이름 효과 주기 */
+
+#board-info h1>a {
+
+  color: #f00;
+
+  font-family: 'BRBA_B';
+
+  font-size: 14px;
+  
+  font-weight: bolder;
+
+}
+
 /* 즐겨찾기 , 소개, 채널, 스케줄, 클립 버튼들 마진 */
 
 #board-info #board-info-bottom {
