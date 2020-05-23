@@ -263,6 +263,14 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 
+#board-info h1>a {
+
+  color: #A9D0F5;
+
+  font-weight: bolder;
+
+}
+
 /* 즐겨찾기 , 소개, 채널, 스케줄, 클립 버튼들 마진 */
 
 #board-info #board-info-bottom {
