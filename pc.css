@@ -243,8 +243,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
     font-size: 14px;
 
-    font-weight: bolder;
-
     margin: .1em;
 
 }
@@ -256,7 +254,13 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 #board-info h1 {
 
-    margin-left: 85px
+    margin-left: 85px;
+
+    font-family: 'BRBA_B';
+
+    font-size: 14px;
+
+    font-weight: bolder;
 
 }
 
