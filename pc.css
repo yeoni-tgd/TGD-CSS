@@ -531,8 +531,9 @@ a {
 .pagination>.active>span,
 .pagination>.active>span:focus {
   background: skyblue;
-  color: #FFFFFF;
+  color: white;
   transition: 0.2s;
+  border: none;
   border-radius: 5px;
 }
 
