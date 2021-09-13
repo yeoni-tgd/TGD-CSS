@@ -525,7 +525,7 @@ a {
 
 }
 
-/* 페이지 번호 */
+/* 페이지 번호 설정
 .pagination>.active>a,
 .pagination>.active>a:focus,
 .pagination>.active>span,
@@ -558,6 +558,7 @@ a {
   border-radius: 5px;
   margin-left: 3px;
 }
+*/
 
 /* 진은검 아이콘 삭제 */
 img[src="https://static-cdn.jtvnw.net/chat-badges/mod.png"] {
