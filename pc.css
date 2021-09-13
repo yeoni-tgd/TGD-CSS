@@ -529,16 +529,35 @@ a {
 .pagination>.active>a,
 .pagination>.active>a:focus,
 .pagination>.active>span,
-.pagination>.active>span:focus{
-  box-shadow: 0 0 2px 0 white, inset 0 0 2px 0 white;
-  background: white;
-  color: black;
-  text-shadow: 0px 0px 2px #555;
+.pagination>.active>span:focus {
+  background: skyblue;
+  color: white;
   transition: 0.2s;
   border: none;
   border-radius: 5px;
 }
 
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>li>a:hover,
+.pagination>li>span:hover {
+  box-shadow: 0 0 0 0 #0007, inset 8em 0em 0 0 #0007;
+  background: #0007;
+  color: white;
+}
+
+.pagination>li>a,
+.pagination>li>a:focus,
+.pagination>li>span .pagination>li>span:focus {
+  box-shadow: 0 0 2px 0 white, inset 0 0 2px 0 white;
+  background: transparent;
+  color: white;
+  text-shadow: 0px 0px 5px #222;
+  transition: 0.2s;
+  border: none;
+  border-radius: 5px;
+  margin-left: 3px;
+}
 
 /* 진은검 아이콘 삭제 */
 img[src="https://static-cdn.jtvnw.net/chat-badges/mod.png"] {
