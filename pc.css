@@ -82,7 +82,7 @@ header #right-search-form>input[type=text] {
 
     border: 3px solid #A9D0F5;
     border-radius: 15px;
-    
+
 }
 
 header #right-search-form>#right-search-btn {
@@ -92,19 +92,8 @@ header #right-search-form>#right-search-btn {
 
 }
 
-/* 검색 버튼
-
-header #right-search-form>#right-search-btn {
-
-    color: #A9D0F5; 검색창 옆 돋보기 색
-
-}
-*/
-
 
 /* 배너 */
-
-
 header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 
     border-radius: 10px;
@@ -113,20 +102,15 @@ header #header-bar>.row, #main .menu-wrapper, #main #main-content>div.frame {
 
 
 /* 광고 배너 */
-
-
 header #header-bar>.row {
 
     border: 3px solid #A9D0F5;  /*!important; 광고 배너 테두리 색*/
-    /* border: 1px solid #FFFFFF; 광고 배너 테두리 색 */
 
 }
 
 
 
 /* 광고 배너 광고 뱃지 */
-
-
 header #header-bar #header-top-notice strong.notice-badge {
 
     background: #A9D0F5; /* 광고 배너 광고 뱃지 배경 색상 (전광판)*/
@@ -136,8 +120,6 @@ header #header-bar #header-top-notice strong.notice-badge {
 
 
 /* 편지아이콘 및 사용자 아이콘 위치 조정 */
-
-
 header #header-bar #header-menu-right.col-xs-2 {
 	
     width: 16%;
@@ -147,7 +129,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 좌측 배너 */
-
 #main .menu-wrapper {
 
     border: 3px solid #A9D0F5; /* 좌측 배너 테두리 색 */
@@ -157,7 +138,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 /* 좌측 배너 헤더 */
-
 #main .menu-wrapper>.header {
 
     background: #A9D0F5; /* 좌측 배너 제목 배경 색 */
@@ -167,7 +147,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 /* 좌측 배너 빈 공간 */
-
 #main .menu-wrapper .spacer {
 
     background: none;
@@ -175,7 +154,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 /* 좌측 배너 하단 */
-
 #main .menu-wrapper a:nth-last-child(1) {
 
     border-radius: 0px 0px 5px 5px;
@@ -186,7 +164,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 메인 배너 */
-
 #main #main-content>div.frame {
 
     border-top: 3px solid #A9D0F5  !important; /* 메인 배너 테두리 스트리머 이름 위 공간*/
@@ -198,7 +175,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 접속자 수 */
-
 #board-info #score-area {
 	
 	display: none;
@@ -214,8 +190,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 프로필 테두리 동그랗게 만들기 */
-
-
 #board-info #board-info-profile-img {
 
     width: 70px;
@@ -237,7 +211,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 즐찾, 소개, 채널, 스케줄, 클립 버튼들 색 변경 */
-
 #board-info #board-info-bottom a {
 
     color: #4078b1;
@@ -255,8 +228,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 스트리머 이름 아래 메뉴들 꾸미기  */
-
-
 #board-info h1 {
 
     margin-left: 85px;
@@ -279,7 +250,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 /* 즐겨찾기 , 소개, 채널, 스케줄, 클립 버튼들 마진 */
-
 #board-info #board-info-bottom {
 
     margin-left: 85px;
@@ -289,7 +259,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 게시글 안 이미지 아래 라인 색 변경 */
-
 #article-content-wrapper>.header {
 
     border-top: 2px solid #A9D0F5;
@@ -297,7 +266,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 /* 게시글들 간격 조절하는 부분 */
-
 #article-list > .article-list-row > .item > .list-title {
 
     padding: 10px 0 10px 0;
@@ -308,8 +276,8 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 }
 
-/* 카테고리 쪽 맨 우측 공지 가리기 모양 둥글게 및 위치 조정 */
 
+/* 카테고리 쪽 맨 우측 공지 가리기 모양 둥글게 및 위치 조정 */
 #article-list #article-option-area>#article-option-area-toggle-btn {
 	
 	background-color: #FFFFFF;
@@ -323,9 +291,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 메인 배너 글 공지 */
-
-
-
 #article-list>.article-list-row.notice {
 
     background-color: #FBEFF8; /* 공지 배경 색 */
@@ -333,8 +298,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 /* 인기글 배경색 */
-
-
 #article-list>.article-list-row.hot {
 	
     background-color: #EFF2FB;
@@ -343,7 +306,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 카테고리 테두리 그리기 */
-
 #article-list #article-list-category {
 	
     border-top: 3px solid #A9D0F5;
@@ -354,8 +316,8 @@ header #header-bar #header-menu-right.col-xs-2 {
     
 }
 
-/* 카테고리 내부 패딩 + 글꼴 */
 
+/* 카테고리 내부 패딩 + 글꼴 */
 #article-list #article-list-category > a {
 	
     display: inline-block;
@@ -370,7 +332,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 본문 테두리 오른쪽 제거 */
-
 #article-list > .article-list-row {
     
     border-right: 0px;
@@ -378,7 +339,6 @@ header #header-bar #header-menu-right.col-xs-2 {
 }
 
 /* 하트 색깔 변경하기 */
-
 #article-list>.article-list-row>.item>.list-title>small.favo {
 
     color: #FFCAD5;
@@ -388,14 +348,12 @@ header #header-bar #header-menu-right.col-xs-2 {
 
 
 /* 집 색깔 진하게 만들기 */
-
 a {
     color: #337ab7;
+    background: #A9D0F5;
 }
 
 /* 글 추천 버튼 */
-
-
 .vote-btn[data-type="up"] {
 
   border: none;
@@ -497,9 +455,6 @@ a {
 }
 
 /* 글 추천 수 */
-
-
-
 #article-list>.article-list-row>.item>.list-header>span {
 
     background-color: #A9D0F5; /* 글 추천 수 배경 색 */
@@ -509,16 +464,11 @@ a {
 
 
 /* 댓글 수 */
-
-
-
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
 
     color: #A9D0F5; /* 댓글 수 색 */
 
 }
-
-
 
 #article-reply-area > .header h5 {
 
@@ -529,9 +479,6 @@ a {
 
 
 /* 인기글 버튼 */
-
-
-
 #article-list #article-list-menu>.btn.best {
 
     border-radius: 0px;
@@ -542,9 +489,6 @@ a {
 
 
 /* 설정 버튼 */
-
-
-
 #article-list #article-list-menu>.btn.cog {
 
     border-radius: 0px;
@@ -556,9 +500,6 @@ a {
 
 
 /* 삭제 버튼 */
-
-
-
 #article-list #article-list-menu>.btn.del {
 
     border-radius: 0px;
@@ -570,7 +511,6 @@ a {
 
 
 /* 글 쓰기 버튼 */
-
 #article-list #article-list-menu > .btn.write {
 	
     border-radius: 0px;
@@ -589,9 +529,6 @@ a {
 }
 
 /* 진은검 아이콘 삭제 */
-
-
-
 img[src="https://static-cdn.jtvnw.net/chat-badges/mod.png"] {
 
     display: none;
@@ -601,9 +538,6 @@ img[src="https://static-cdn.jtvnw.net/chat-badges/mod.png"] {
 
 
 /* 인기글 별 돌리기 */
-
-
-
 @keyframes binglebingle {
 	
 	from { transform: rotate(0deg); }
@@ -619,8 +553,6 @@ span.a-badge i.fa.fa-star {
 
 
 /* 하트 두근두근 효과 주기 */
-
-
 small.favo i.fa.fa-heart {
 
     animation: heartbeat 1s infinite;
@@ -647,7 +579,6 @@ small.favo i.fa.fa-heart {
 
 
 /* dropdown transition */
-
 .dropdown.open .dropdown-menu,
 .input-group-btn.open .dropdown-menu {
   opacity: unset;
