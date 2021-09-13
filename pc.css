@@ -80,12 +80,15 @@ header #header-bar {
 
 header #right-search-form>input[type=text] {
 
+    border: 3px solid #A9D0F5;
     border-radius: 15px;
+    
 }
 
 header #right-search-form>#right-search-btn {
 
     border-radius: 15px;
+    color: #A9D0F5;       /* 검색창 옆 돋보기 색 */
 
 }
 
