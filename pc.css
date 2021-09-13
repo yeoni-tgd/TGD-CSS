@@ -497,7 +497,6 @@ a {
 }
 
 
-
 /* 삭제 버튼 */
 #article-list #article-list-menu>.btn.del {
 
@@ -506,7 +505,6 @@ a {
     font-weight: bold;
 
 }
-
 
 
 /* 글 쓰기 버튼 */
@@ -526,6 +524,18 @@ a {
     border-color: #; /* 글 쓰기 버튼 배경 색 */
 
 }
+
+/* 페이지 번호 */
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>span,
+.pagination>.active>span:focus {
+  background: skyblue;
+  color: #FFFFFF;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
 
 /* 진은검 아이콘 삭제 */
 img[src="https://static-cdn.jtvnw.net/chat-badges/mod.png"] {
